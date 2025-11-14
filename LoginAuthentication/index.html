@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Authentication System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Login Authentication System</h1>
+
+    <div id="register-section" class="form-section">
+      <h2>Register</h2>
+      <input type="text" id="reg-username" placeholder="Enter username" />
+      <input type="password" id="reg-password" placeholder="Enter password" />
+      <button onclick="register()">Register</button>
+    </div>
+
+    <div id="login-section" class="form-section">
+      <h2>Login</h2>
+      <input type="text" id="login-username" placeholder="Enter username" />
+      <input type="password" id="login-password" placeholder="Enter password" />
+      <button onclick="login()">Login</button>
+    </div>
+
+    <div id="secured-section" class="form-section hidden">
+      <h2>🔒 Secured Page</h2>
+      <p>Welcome, <span id="user-name"></span>!</p>
+      <p>You have successfully accessed a protected page.</p>
+      <button onclick="logout()">Logout</button>
+    </div>
+
+    <p id="message"></p>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

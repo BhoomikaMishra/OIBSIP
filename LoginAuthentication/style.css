@@ -1,0 +1,74 @@
+body {
+  font-family:'Courier New', Courier, monospace;
+  background-color: rgb(226, 165, 165);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  width: 400px;
+  text-align: center;
+}
+
+
+h1 {
+  color:rgb(16, 14, 14);
+  margin-bottom: 20px;
+  text-shadow: 0 2 4px solid black;
+  transition: 1s;
+  transition-duration: 2s;
+}
+h1:hover{
+  text-decoration-color: blue;
+}
+
+h2 {
+  color:rgb(49, 40, 40);
+  margin-bottom: 10px;
+}
+input {
+  width: 90%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 8px;
+  border: 1px solid rgb(31, 21, 21);
+  outline: none;
+  
+}
+
+
+button {
+  background-color:rgb(133, 41, 218);
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+button:hover {
+  background-color:green;
+}
+
+.form-section {
+  margin-bottom: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+#message {
+  color:brown;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
